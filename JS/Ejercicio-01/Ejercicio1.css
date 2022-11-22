@@ -1,0 +1,20 @@
+/*Especificidad: 001*/
+body{
+    
+    color: rgb(0,0,0);
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5em;
+    font-size: 1.5em;  
+	background-color: #d74f00; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#d74f00 , #ffd2b8);
+  }
+/*Especificidad: 001*/
+h1,h2,h3,h4,p{
+    text-align:center;
+    padding: 1.2em; 
+  }
+
+/*Especificidad: 001*/
+  p{
+    color: #252525;
+  }
