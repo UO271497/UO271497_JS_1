@@ -14,7 +14,7 @@ fieldset{
   margin:auto;
   
 }
-
+/*Especificidad: 002*/
 form>p{
 	text-align:left;
 	padding-left:0.5em;

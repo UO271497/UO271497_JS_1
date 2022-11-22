@@ -2,8 +2,8 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="keywords" content="Sergio Arroni,Software y estándares en la Web, Universidad de Oviedo, Calculadora, Cientifica" />
-    <meta name="Autor" content="Sergio Arroni del Riego" />
+    <meta name="keywords" content="Miguel Suárez,Software y estándares en la Web, Universidad de Oviedo, Calculadora, Cientifica" />
+    <meta name="Autor" content="Miguel Suárez" />
     <meta name="Descripción" content="Se trata de una web en la cual hay una calculadora Cientifica" />
     <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
     <title>Calculadora Cientifica</title>
@@ -16,13 +16,13 @@
       <h1>Calculadora Cientifica</h1>
     </header>
     <main>
-      
+
       <form>
         <fieldset>
           <input type="submit" value="Reset" />
         </fieldset>
 
-        <label for="pantalla">Casio</label>
+        <label for="pantalla">Cientifica</label>
         <input type="text" id="pantalla" name="pantalla" disabled />
 
         <fieldset>
@@ -34,9 +34,9 @@
         <fieldset>
           <input type="button" value="MC" onclick="calculadora.mclear()" />
           <input type="button" value="MR" onclick="calculadora.mshow()" />
-          <input type="button" value="M+" onclick="calculadora.madd()" />
-          <input type="button" value="M-" onclick="calculadora.mres()" />
-          <input type="button" value="MS" onclick="calculadora.ms()" />
+          <input type="button" value="M+" onclick="calculadora.mMas()" />
+          <input type="button" value="M-" onclick="calculadora.mMenos()" />
+          <input type="button" value="MS" onclick="calculadora.mSave()" />
         </fieldset>
         <fieldset>
           
@@ -85,5 +85,8 @@
         </fieldset>
        </form>
     </main>
+    <footer>
+      <p>Realizado por: Miguel Suárez</p>
+    </footer>
   </body>
 </html>

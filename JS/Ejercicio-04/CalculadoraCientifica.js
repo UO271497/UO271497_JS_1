@@ -3,7 +3,7 @@
 document.addEventListener('keydown', (event) => {
 
     const keyName = event.key;
-
+    console.log(keyName)
     switch (keyName){
         
         case '0':
@@ -52,16 +52,35 @@ document.addEventListener('keydown', (event) => {
             break;
             
         case '=':
-            calculadora.igual()
+            calculadora.solve()
             break;
         
         case '.':
             calculadora.punto();
             break;
-
-        case 'C':
-            calculadora.delete();
-            break;  
+ 
+        case 'Backspace':
+                calculadora.delete();
+                break;
+        case 'c':
+                calculadora.clear();
+                break;
+        case 'm':
+                calculadora.mshow();
+                break;
+        case 'n':
+                calculadora.mMas();
+                break;
+        case 'b':
+                calculadora.mMenos();
+                break;
+        case 'p':
+                calculadora.masmenos();
+                break;
+        case 's':
+                calculadora.sqrt();
+                break;
+            
     }
 });
 
@@ -150,7 +169,7 @@ class Calculadora {
         }
     }
 
-    madd() {
+    mMas() {
         try {
             if (this.mrc.valueOf() == "0")
                 this.mrc = eval(this.pantalla);
@@ -162,7 +181,7 @@ class Calculadora {
         }
     }
 
-    mres() {
+    mMenos() {
         try {
             this.mrc -= eval(this.pantalla);
         }
@@ -171,6 +190,11 @@ class Calculadora {
         }
     }
 
+    mrc() {
+        document.getElementById("pantalla").value = this.mrc;
+        this.pantalla = this.mrc;
+
+    }
     mshow() {
         document.getElementById("pantalla").value = this.mrc;
         this.pantalla = this.mrc;
@@ -212,18 +236,18 @@ class CalculadoraCientifica extends Calculadora{
         document.getElementById("pantalla").value = this.pantalla.toString();
     }
 
-    mr(){
+    mshow(){
         this.pulsado = false;
         super.mrc();
     }
 
-    mc(){
+    mcclear(){
         this.pulsado = true;
         super.mrc();
     }
 
-    ms(){
-        this.memoria = this.pantalla.toString();
+    mSave(){
+        this.mrc = Number(this.pantalla).toString();
         document.getElementById("pantalla").value = this.pantalla.toString();
     }
 
