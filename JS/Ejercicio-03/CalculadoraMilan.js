@@ -1,4 +1,4 @@
-"use strict";
+    "use strict";
 
 document.addEventListener('keydown', (event) => {
     const keyName = event.key;
@@ -176,6 +176,34 @@ class Calculadora {
         document.getElementById("pantalla").value = this.mrc;
         this.pantalla = this.mrc;
         this.canAddNumber = false;
+        if(this.canAddNumber==false){
+            this.mrc=0;
+            this.canAddNumber=true;
+        }
+    }
+    sqrt(){
+        try { 
+            this.pantalla = Math.sqrt(document.getElementById("pantalla").value).toString();
+        }
+        catch(err) {
+            this.pantalla = 'Error = ' + err;
+            alert(err);
+        }
+
+        document.getElementById("pantalla").value = this.pantalla.toString();
+    }
+
+    masmenos(){
+        this.pantalla=(Number(this.pantalla.toString())*-1).toString();
+        document.getElementById("pantalla").value = this.pantalla.toString();
+    }
+    
+    percentage(){
+        this.canAddNumber = true;   
+        if (this.canAddOperator()) {
+            this.pantalla += "%";
+        }
+        document.getElementById("pantalla").value = this.pantalla;
     }
 
     mclear() {

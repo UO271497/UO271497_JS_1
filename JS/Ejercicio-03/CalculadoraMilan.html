@@ -5,7 +5,7 @@
     <title>Ejercicio 3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CalculadoraMilan.css">
-    <script src="CalculadoraBasica.js"></script>
+    <script src="CalculadoraMilan.js"></script>
     <meta name="keywords" content="Software y estándares en la Web, Universidad de Oviedo, Calculadora, Basica">
     <meta name="Autor" content="Miguel Suárez" />
     <meta name="Descripción" content="Se trata de una web en la cual hay una calculadora basica">
@@ -14,15 +14,15 @@
   <body>
     <h1>Ejercicio3</h1>
     <form>
-		<p>Milan</p>
-        
-        <input type="text" id="pantalla" name="pantalla" title="pantalla" disabled />
+  
+		  <label for="pantalla">Milan</label>
+		  <input type="text" id="pantalla" name="pantalla" title="pantalla" disabled />
   
         <fieldset>
-			<input type="button" value="on/c" onclick="calculadora.onc()" />
+			<input type="button" value="on/c" onclick="calculadora.clear()" />
 			<input type="button" value="CE" onclick="calculadora.clear()" />
 			<input type="button" value="+/-" onclick="calculadora.masmenos()" />
-			<input type="button" value="√" onclick="calculadora.root()" />
+			<input type="button" value="√" onclick="calculadora.sqrt()" />
 			<input type="button" value="%" onclick="calculadora.percentage()" />
 			
 			<input type="button" value="7" onclick="calculadora.add(7)" />
@@ -42,12 +42,12 @@
 			<input type="button" value="2" onclick="calculadora.add(2)" />
 			<input type="button" value="3" onclick="calculadora.add(3)" />
 			<input type="button" value="+" onclick="calculadora.suma()" />
-			<input type="button" value="M+" onclick="calculadora.mres()" />
+			<input type="button" value="M+" onclick="calculadora.madd()" />
 			
 			<input type="button" value="0" onclick="calculadora.add(0)" />
 			<input type="button" value="." onclick="calculadora.add('.')" />
 			<input type="button" value="=" onclick="calculadora.solve()" />
-			<input type="button" value="M-" onclick="calculadora.madd()" />
+			<input type="button" value="M-" onclick="calculadora.mres()" />
 			
         </fieldset>
       </form>
