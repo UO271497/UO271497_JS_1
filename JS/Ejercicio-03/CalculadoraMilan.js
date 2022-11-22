@@ -2,8 +2,9 @@
 
 document.addEventListener('keydown', (event) => {
     const keyName = event.key;
+
     switch (keyName){
-        
+
         case '0':
             calculadora.add(0);
             break;
@@ -57,9 +58,31 @@ document.addEventListener('keydown', (event) => {
             calculadora.solve()
             break;
 
-        case 'C':
-            calculadora.delete();
-            break;  
+        case 'c':
+            
+            calculadora.clear();
+            break;
+
+		case '%':
+            calculadora.porcentaje();
+            break;
+		case 'm':
+            calculadora.mshow();
+            break;
+		case 'n':
+            calculadora.mMas();
+            break;
+		case 'b':
+            calculadora.mMenos();
+            break;
+		case 'p':
+            calculadora.masmenos();
+            break;
+		case 's':
+            calculadora.sqrt();
+            break;
+		
+		
     }
 });
 
