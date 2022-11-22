@@ -149,7 +149,7 @@ class Calculadora {
         }
     }
 
-    madd() {
+    mMas() {
         try {
             if (this.mrc.valueOf() == "0")
                 this.mrc = eval(this.pantalla);
@@ -162,7 +162,7 @@ class Calculadora {
         }
     }
 
-    mres() {
+    mMenos() {
         try {
             this.mrc -= eval(this.pantalla);
         }
@@ -197,8 +197,8 @@ class Calculadora {
         this.pantalla=(Number(this.pantalla.toString())*-1).toString();
         document.getElementById("pantalla").value = this.pantalla.toString();
     }
-    
-    percentage(){
+
+    porcentaje(){
         this.canAddNumber = true;   
         if (this.canAddOperator()) {
             this.pantalla += "%";
