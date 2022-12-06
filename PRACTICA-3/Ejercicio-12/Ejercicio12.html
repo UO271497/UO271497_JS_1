@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 12</title>
+  <meta name="keywords" content="Miguel Suárez,Software y estándares en la Web, Universidad de Oviedo, XML, CSS, HTML, Texto, JSON" />
+  <meta name="Autor" content="Miguel Suárez" />
+  <meta name="Descripción" content="Se trata de una web en la cual se usa una API HTML5 FILE para leer archivos XML, JSON y de texto" />
+  <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+  <link rel="stylesheet" href="Ejercicio12.css"/>
+  <script src="Ejercicio12.js"></script>
+</head>
+
+<body>
+  <script> lector.checkNavegador() </script>
+
+  <h1>Lector de archivos</h1>
+  <section>
+    <h2>Selección de archivos </h2>
+      <label for="subirArchivos">Seleccione sus archivos: </label>
+      <input id="subirArchivos" type="file" name="Archivos" onchange="lector.leerArchivos()" multiple>
+  </section>
+
+  <section id="contenidos"> 
+    <h2>Resultados</h2>
+    <p>Aquí se mostrarán los contenidos y descripción de los archivos</p>
+  </section>
+
+  <footer>
+    <p>Realizado por: Miguel Suárez</p>
+  </footer>
+
+  
+  </body>
+</html>

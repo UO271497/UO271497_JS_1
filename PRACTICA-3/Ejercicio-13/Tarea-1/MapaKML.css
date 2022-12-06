@@ -1,0 +1,64 @@
+
+/*Especificidad: 001*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+  background-color:#c6f8f1; 
+  color: #380146;
+  padding-right: 1.75em;
+}
+
+/*Especificidad: 001*/
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#005551;
+  color:white;
+  border-radius: 1em;
+  text-transform: uppercase;
+  text-align: center; 
+  padding: 1.6em 1.5em;    
+}
+
+/*Especificidad: 001*/
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #005551;
+  background-color: #fdffff;
+  padding: 0.6em 0.6em; 
+  border-top-left-radius: 1.25em;
+  border-top-right-radius: 1.25em;
+  text-align: left;
+}
+
+/*Especificidad: 001*/
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: #005551;
+  padding: 0.6em 0.6em; 
+  border-top-left-radius: 1.25em;
+  border-top-right-radius: 1.25em;
+  text-align: left;
+}
+/*Especificidad: 001*/
+p{
+  margin-left: 4em;
+  margin-bottom: 2em;
+}
+
+/*Especificidad: 001*/
+input{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: large;
+  color: white;
+  background-color: #014446;
+  border-radius: 0.5em;
+  margin-left: 4em;
+  margin-bottom: 2em;
+}
+/*Especificidad: 001*/
+main
+{
+  width: 70em;
+  height: 40em;
+}

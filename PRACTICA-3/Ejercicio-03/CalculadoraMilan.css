@@ -1,0 +1,69 @@
+/*Especificidad: 001*/
+body {
+  color: rgb(0, 0, 0);
+  font-size: 1.5em;
+  background-color: #d74f00; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#d74f00 , #ffd2b8);
+  text-align:center;
+}
+/*Especificidad: 001*/
+fieldset{
+  max-width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  margin:auto;
+  
+}
+/*Especificidad: 002*/
+form>p{
+	text-align:left;
+	padding-left:0.5em;
+	color:#F9EFC2;
+}
+/*Especificidad: 001*/
+form {
+	text-align:center;
+	display: grid;
+	grid-template-columns: auto;
+	background-image: linear-gradient(#8A5198 , #13AC97);
+	display:inline-block;
+	background-color: rgb(44, 42, 42);
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	padding-bottom:1em;
+	border-radius: 0.5em;
+	
+}
+/*Especificidad: 011*/
+input[type='text'] {
+  height: 2.5em;
+  width: 23em;
+  margin: 0.5em;
+  color: rgb(0, 0, 0);
+  background-color:darkolivegreen;
+  }
+
+/*Especificidad: 011*/
+input[type='button'] {
+  border-radius: 0.5em;
+  height: 2.2em;
+  width: 2.8em;
+  margin: 0.7em;
+}
+/*Especificidad: 011*/
+input[value='CE'],
+input[value='on/c'],
+input[value='+/-'],
+input[value='√'],
+input[value='%'],
+input[value='Mrc'],
+input[value='M+'],
+input[value='M-'],
+input[value='/'],
+input[value='*'],
+input[value='+'],
+input[value='-'],
+input[value=''] {
+  background-color: #13AC97;
+}
+

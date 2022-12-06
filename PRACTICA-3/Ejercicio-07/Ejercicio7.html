@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 7</title>
+  <meta name="keywords" content="Miguel Suárez,Software y estándares en la Web, Universidad de Oviedo, JQuery" />
+  <meta name="Autor" content="Miguel Suárez" />
+  <meta name="Descripción" content="Se trata de una web en la cual se usa JQuery para diferentes cosas" />
+  <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+  <link rel="stylesheet" href="Ejercicio7.css"/>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="Ejercicio7.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1>Uso de JQuery</h1>
+  </header>
+
+<section id="parrafoSection">
+    <h2>Descripción</h2>
+    <button onclick="query.ocultarP()"> Ocultar párrafos </button>
+    <button onclick="query.mostrarP()"> Mostrar párrafos </button>
+    <button onclick="query.eliminarparrafos()"> Eliminar parrafos </button>
+    <p id = "parrafo">La escalada es una actividad que consiste en realizar ascensos sobre paredes, 
+      valiéndose de la fuerza física propia. Se considera escalada todo ascenso con las extremidades inferiores 
+      (pies y piernas; en algunos casos también se podría llegar a utilizar la rodilla, por si hubiera alguna pared al lado) 
+      y las extremidades superiores (brazos y manos). En la escalada hay alturas que implican un peligro considerable y con el 
+      objetivo de tener seguridad se utiliza equipo de protección.</p>
+</section>
+
+  <section id = "tabla">
+    <h2>Mejores escaladores</h2>
+    <button onclick="query.ocultarTabla()"> Ocultar tablas </button>
+    <button onclick="query.mostrarTabla()"> Mostrar tablas </button>
+    <button onclick="query.eliminartabla()"> Eliminar tabla </button>
+    <table>
+        <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Nacionalidad</th>
+          <th> Medallas de oro</th>
+        </tr>
+        <tbody>
+        <tr>
+          <td> Adam Ondra</td>
+          <td> República checca</td>
+          <td> 17</td>
+        </tr>
+        <tr>
+            <td> Jacob Schubert</td>
+            <td> Austria</td>
+            <td> 12</td>
+        </tr>
+        <tr>
+            <td> Janja Garnbret</td>
+            <td> Eslovenia</td>
+            <td> 31</td>
+        </tr>
+        <tr>
+            <td> Ramón Julián</td>
+            <td> España</td>
+            <td> 9</td>
+        </tr>
+        <tr>
+            <td> Natalia Grossman</td>
+            <td> EEUU</td>
+            <td> 18</td>
+        </tr>
+        <tr>
+            <td> Laura Rogora</td>
+            <td> Italia</td>
+            <td> 4</td>
+        </tr>
+    </table>
+  </section>
+
+  <section id="lista">  	
+    <h2>Escaladores mundialmente conocidos</h2>
+    <button onclick="query.ocultarLista()"> Ocultar listas </button>
+    <button onclick="query.mostrarLista()"> Mostrar listas </button>
+    <button onclick="query.eliminarlista()"> Eliminar lista</button>
+    <ul>
+        <li id="primerelemento">Adam Ondra</li>
+        <li>Chris Sharma</li>
+        <li>Tommy Caldwell</li>
+        <li>Alex Honnold</li>
+        <li>Lynn Hill</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Personalización</h2>
+
+    <p><strong>Editar footer</strong></p>
+
+    <fieldset title="autor">
+      <label for="campoAutor">Autor: </label>
+      <input type="text" id="campoAutor" value="Jose Luis">
+    </fieldset>
+
+    <fieldset title="descripcion">
+      <label for="campoDescripcion">Descripción: </label>
+      <input type="text" id="campoDescripcion" value="Descripcion default">
+    </fieldset>
+    
+    <button onclick="query.modificarFooter()"> Modificar </button>
+
+    <p><strong>Añadir elementos</strong></p>
+
+    <fieldset title="parrafo">
+      <label for="campoParrafo">Nuevo párrafo: </label>
+      <input type="text" id="campoParrafo" value="">
+    </fieldset>
+    <button onclick="query.añadirparrafo()"> Añadir párrafo </button>
+
+    <fieldset title="campoLista">
+      <label for="campoLista">Nuevo elemento lista: </label>
+      <input type="text" id="campoLista" value="">
+    </fieldset>
+
+    <button onclick="query.añadirlista()"> Añadir elemento </button>
+
+    
+    
+    <p><strong>Info tabla</strong></p>
+    <fieldset title="sumar">
+      <button onclick="query.sumarFilas()"> Sumar filas </button>
+      <p id="sumarFi">Aqui saldra la suma de las Filas: </p>
+      <button onclick="query.sumarColum()"> Sumar columnas </button>
+      <p id="sumadoColum">Aqui saldra la suma de las Columnas: </p>
+    </fieldset>
+      
+  </section>
+
+  <article>
+    <h3>Aqui va Toda la informacion de los padres</h3>
+    <p><strong>Mostrar recorrido html</strong></p>
+    <button onclick="query.mostrarhtmlinfo()"> Mostrar </button>
+    <p id="infoPadres">Aqui</p>
+  </article>
+
+  <footer>
+    <p id="autor">Miguel Suárez</p>
+    <p id="descripcion">Software y estándares para la web, Universidad de Oviedo. Curso 2022/23</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Buscador de ciudades</title>
+    <meta name="viewport" content="initial-scale=1.0"/>
+    <meta name="keywords" content="Miguel Suárez,Software y estándares en la Web, Universidad de Oviedo, Google, Coordenadas, API HTML5, Geolocalización, mapa, dinamico" />
+    <meta name="Autor" content="Miguel Suárez" />
+    <meta name="Descripción" content="Se trata de una web en la cual muestra infomracion sobre tu geolocalización, tiene control de errores y saca un mapa dinamico de Google Maps" />
+    <link href="Ejercicio11.css" rel="stylesheet"/>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Ejercicio11.js"></script>
+</head>
+
+<body>
+  
+  <h1>Buscador de ciudades</h1>   
+  <section>
+    <h2>Busca aquí la ciudad deseada</h2>
+      <label for="buscador">Buscador: </label>
+      <input type="text" id="buscador" value=""/>
+      <button onclick = "datos.cargarDatos()">Buscar</button>
+  </section>
+
+  <section>
+    <h2>Sus datos</h2>
+    <p>Aquí se muestra su información: </p>
+    <figure id="imgCiudad"></figure>
+    <p>Descripción: </p>
+    <ul id="ciudadMeteo"></ul>
+
+  </section>
+
+    <h2>Mapa</h2>
+  <main id="mapa">
+    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvIyQoGv5V7xXmfbhwZEtUFk88vTJjgzU&callback=miPosicion.initMap"></script>
+  </main>
+
+<section >
+  <h2>Fotos</h2>
+  <figure id="fotos" title="Fotos"></figure>
+</section>
+  
+
+<footer>
+  <p>Realizado por: Miguel Suárez</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<kml xmlns='http://www.opengis.net/kml/2.2'>
+<Document>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Miguel Suárez Artime</name>
+<description>Nació el 2000-05-22</description>
+<Point>
+<coordinates>-5.69899438 ,43.54387392,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Miguel Suárez Artime</name>
+<description>Vive en Gozón</description>
+<Point>
+<coordinates> -5.79308104997 ,43.6132754686,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de David Santos Miguelez</name>
+<description>Nació el 1998-12-18</description>
+<Point>
+<coordinates>-5.586187949867192 ,42.59886721564629 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de David Santos Miguelez</name>
+<description>Vive en Gijón</description>
+<Point>
+<coordinates> -5.675321537567297 ,43.534783268698554 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Manuel García Sierra</name>
+<description>Nació el 1999-08-23</description>
+<Point>
+<coordinates>-3.7035781610332226 ,40.4044142337122 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Manuel García Sierra</name>
+<description>Vive en Oviedo</description>
+<Point>
+<coordinates> -5.851576577408213 ,43.35887363314925  ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Antonio González Miguelez</name>
+<description>Nació el 1999-01-01</description>
+<Point>
+<coordinates>-5.868914376202027 ,43.37384891682786 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Antonio González Miguelez</name>
+<description>Vive en Oviedo</description>
+<Point>
+<coordinates> -5.851576577408213 ,43.35887363314925  ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Adrián López García</name>
+<description>Nació el 1999-12-13</description>
+<Point>
+<coordinates>-5.74690285633709 ,43.53177349755274  ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Adrián López García</name>
+<description>Vive en Gijón</description>
+<Point>
+<coordinates> -5.660756857389396  ,43.5185110028355,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Nicolás Lozano García</name>
+<description>Nació el 2000-03-21</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Nicolás Lozano García</name>
+<description>Vive en Carreño</description>
+<Point>
+<coordinates> -5.769302594502799 ,43.581685462174 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Pablo González Rodriguez</name>
+<description>Nació el 2000-07-16</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Pablo González Rodriguez</name>
+<description>Vive en Carreño</description>
+<Point>
+<coordinates> -5.766351170578199 ,43.58701807623906 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Rubén Rodríguez Rodríguez</name>
+<description>Nació el 2000-12-15</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Rubén Rodríguez Rodríguez</name>
+<description>Vive en Carreño</description>
+<Point>
+<coordinates> -5.764053854533636 ,43.5820981918341 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Miguel Plaza Arce</name>
+<description>Nació el 2000-07-24</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Miguel Plaza Arce</name>
+<description>Vive en Carreño</description>
+<Point>
+<coordinates>-5.763098654576742 ,43.59110040099521,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Manuel García García</name>
+<description>Nació el 1997-08-06</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Manuel García García</name>
+<description>Vive en Gijón</description>
+<Point>
+<coordinates> -5.660756857389396 ,43.52492870308615 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Nicolás Eguen García</name>
+<description>Nació el 1994-10-15</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Nicolás Eguen García</name>
+<description>Vive en Gijón</description>
+<Point>
+<coordinates> -5.640019208791536 ,43.53531621588867  ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Ainhoa Solís García</name>
+<description>Nació el 1997-02-28</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Ainhoa Solís García</name>
+<description>Vive en Barcelona</description>
+<Point>
+<coordinates> -5.653920370457444  ,43.53334221162192 ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/blue-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Nacimiento de Andrea López Ruíz</name>
+<description>Nació el 1996-01-30</description>
+<Point>
+<coordinates>-5.710855442025905 ,43.5447382070970,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+<Placemark>
+ <Style>
+<IconStyle>
+<Icon><href>http://maps.google.com/mapfiles/kml/pushpin/red-pushpin.png</href></Icon>
+</IconStyle>
+</Style>
+<name>Residencia de Andrea López Ruíz</name>
+<description>Vive en Oviedo</description>
+<Point>
+<coordinates> -5.841135108268101 ,43.37306198345989  ,0</coordinates>
+<altitudeMode>relativeToGround</altitudeMode>
+</Point>
+</Placemark>
+</Document></kml>

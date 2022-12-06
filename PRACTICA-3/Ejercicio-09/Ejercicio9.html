@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Ejercicio 9</title>
+  <meta name="keywords" content="Miguel Suárez,Software y estándares en la Web, Universidad de Oviedo, OpenWeatherMap, XML, Ciudades, JSON" />
+  <meta name="Autor" content="Miguel Suárez Artime" />
+  <meta name="Descripción" content="Se trata de una web en la cual se usa  la API OpenWeatherMap, devuelve un archivo XML" />
+  <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+  <link rel="stylesheet" href="Ejercicio9.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="Ejercicio9.js"></script>
+</head>
+
+<body>
+  <h1>Valores meteorológicos de Pueblos/Ciudades generados en XML</h1>   
+
+  <section>
+    <h2>Gijon</h2>
+    <figure id="imgGijon"></figure>
+    <ul id="Gijon"> Descripción: <script>meteo.cargarDatos('Gijon');</script></ul>
+  </section>
+
+  <section>
+    <h2>Avilés</h2>
+    <figure id="imgAvilés"></figure>
+    <ul id="Avilés"> Descripción: <script>meteo.cargarDatos('Avilés');</script></ul>
+  </section>
+
+  <section>
+    <h2>Oviedo</h2>
+    <figure id="imgOviedo"></figure>
+    <ul id="Oviedo"> Descripción: <script>meteo.cargarDatos('Oviedo');</script></ul>
+  </section>
+
+  <section>
+    <h2>Madrid</h2>
+    <figure id="imgMadrid"></figure>
+    <ul id="Madrid"> Descripción: <script>meteo.cargarDatos('Madrid');</script></ul>
+  </section>
+
+  <section>
+    <h2>Candás</h2>
+    <figure id="imgCandás"></figure>
+    <ul id="Candás"> Descripción: <script>meteo.cargarDatos('Candás');</script></ul>
+  </section>
+
+  <footer>
+    <p>Realizado por: Miguel Suárez</p>
+  </footer>
+</body>
+</html>

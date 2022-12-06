@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejercicio 14</title>
+        <meta name="keywords" content="Miguel Suárez,Software y estándares en la Web, Universidad de Oviedo, Geolocation, Canvas,Drag And Drop, Google Maps, recorrido, API HTML5" />
+        <meta name="Autor" content="Miguel Suárez" />
+        <meta name="Descripción" content="Se trata de una web en la cual puedes pintar tu propio recorrido en un mapa de google Maps, tanto con tus coordenadas actuales como las que le pases al progama. Usa las API HTML5 Drag And Drop, Geolocation y Canvas" />
+        <meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+        <link rel="stylesheet" href="Ejercicio14.css"/>
+    </head>
+    <body>
+        <header>
+            <h1>Pinta tu propio camino</h1>
+        </header>
+        <section ondrop="dropeador.drop(event)" ondragover="dropeador.allowDrop(event)">
+            <h2>Lienzo</h2>
+            <canvas id="canvas" width="600" height="500"></canvas>
+        </section>
+
+        <section>
+            <h2>Configuracion Canvas</h2>
+            <fieldset>
+                <label for="color">Seleccione un Color: </label>
+                <input type="color" id="color" oninput="can.defColor(this.value);">
+                <label for="grosor">Seleccione un Grossor: </label>
+                <input type="range" id="grosor" oninput="can.defGrossor(this.value);" min="1" max="5" value="1">
+                <script src="Ejercicio14.js"></script>
+                <input type="button" value="Cargar mis coordenadas" onclick="mapaa.getMapaEstaticoGoogleDefault();">
+            </fieldset>
+        </section>
+        <section id="sect2" ondragover="dropeador.allowDrop(event)" >
+            <h2>Mapa</h2>
+            <fieldset>
+                <label for="Lat">Seleccione una Latitud: </label>
+                <input type="text" id="Lat" value = "43.36">
+                <label for="Long">Seleccione una Longitud: </label>
+                <input type="text" id="Long" value = "-5.84">
+                <input type="button" value="Saca el mapa" onclick="mapaa.getMapaEstaticoGoogle();">
+            </fieldset>
+        </section>
+        <main id="mapa"></main>
+
+        <footer>
+            <p>Realizado por: Miguel Suárez</p>
+        </footer>
+    </body>
+</html>
